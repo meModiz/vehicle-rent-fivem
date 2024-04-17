@@ -1,0 +1,38 @@
+fx_version "cerulean"
+
+description "Basic React (TypeScript) & Lua Game Scripts Boilerplate"
+author "Project Error"
+version '1.0.0'
+repository 'https://github.com/project-error/fivem-react-boilerplate-lua'
+
+lua54 'yes'
+
+games {
+  "gta5",
+  "rdr3"
+}
+
+ui_page 'web/build/index.html'
+
+client_script "client/**/*"
+server_script "server.lua"
+
+shared_script {
+  'config.lua',
+  'carsConfig.lua',
+  '@ox_lib/init.lua',
+  '@es_extended/imports.lua'
+}
+
+files {
+	'web/build/index.html',
+	'web/build/**/*',
+  'images/*.png',
+}
+
+escrow_ignore {
+  'config.lua',
+  'carsConfig.lua',
+}
+
+lua54 'yes'

@@ -1,0 +1,348 @@
+.nui-wrapper {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden
+}
+
+pre {
+  counter-reset: line-numbering;
+  background: #2c3e50;
+  padding: 12px 0px 14px 0;
+  color: #ecf0f1;
+  line-height: 140%;
+}
+
+.background {
+  background: url('https://res.cloudinary.com/duzcxnh0t/image/upload/v1705271565/lylc40askgesn0lzhloq.png');
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+.infowrap {
+  background: yellow;
+}
+
+.header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-left: 50px;
+  margin-top: 17px;
+  row-gap: 25px;
+  column-gap: 1080px;
+}
+
+.headTexts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 365px;
+}
+
+.headTopText {
+  color: #FFF;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+
+.headSubText {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3;
+  width: 364px;
+  text-align: left;
+}
+
+.headLine {
+  width: 1822.016px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  grid-column: span 2;
+}
+
+.midContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three equal-width columns */
+  gap: 0px;
+  justify-items: center;
+  /* Center items horizontally within each column */
+  margin-top: 20px;
+  /* Adjust the top margin as needed */
+}
+
+.womanImage {
+  height: 950px;
+}
+
+.bgEffects {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  opacity: 0.1;
+  background: url('https://res.cloudinary.com/duzcxnh0t/image/upload/v1705270455/zz8k1modjsvropz9iqnb.png'), lightgray 50% / cover no-repeat;
+  mix-blend-mode: overlay;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.carView{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carTitle {
+  width: 550px;
+  height: 220px;
+}
+
+.carBrand {
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+
+.carModel {
+  color: #FF4545;
+  font-family: 'Granesta', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+
+.carDescription {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3;
+}
+
+.carImage{
+  width: 572px;
+  height: 320px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  z-index: 2;
+}
+.carImage2{
+  width: 465px;
+  height: 315px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  opacity: 0.2;
+  margin-top: -315px;
+  margin-left: -300px;
+  z-index: 1;
+}
+.carImage3{
+  width: 465px;
+  height: 315px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  opacity: 0.2;
+  margin-top: -315px;
+  margin-left: 305px;
+  z-index: 1;
+}
+
+.carSpecs{
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  margin-top: 10px;
+}
+
+.specsTitle{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  opacity: 0.2;
+}
+
+.specValue{
+  color: #FF4545;
+  font-family: 'Granesta', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-top: 7px;
+}
+
+.priceRent{
+  color: #FF4545;
+  font-family: 'Granesta', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.bottomCar{
+  margin-top: 195px;
+}
+
+.classTitle{
+  color: #FFF;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.50);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90%; /* 13.5px */
+  letter-spacing: 2.25px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+
+.classCarBox{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 332px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 0.7px solid #ffffff42;
+    background: rgb(217 217 217 / 6%);
+    box-shadow: 0px 4px 30px 0px rgb(255 255 255 / 10%) inset;
+margin-bottom: 18px;
+}
+
+.CarBrand{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+.CarModel{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+letter-spacing: 1.3px;
+opacity: 0.5;
+}
+
+.classBox{
+  height: 225px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 40px;
+}
+
+.carTitleBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+}
+
+.carList
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -115px;
+  margin-top: 35px;
+}
+
+
+/* Custom scrollbar styling */
+.classBox::-webkit-scrollbar {
+    width: 1px; /* Width of the scrollbar */
+}
+
+.classBox::-webkit-scrollbar-thumb {
+  background-color: #FF4747;
+}
+
+.classBox::-webkit-scrollbar-track {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background: rgba(255, 255, 255, 0.30);
+}
+
+/* Adjust the position of the scrollbar */
+.classBox::-webkit-scrollbar {
+    margin-right: -10px; /* Negative margin to move the scrollbar outside the box */
+}
+
+.inputHours{
+  border: none;
+  background: #ffffff00;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  color: white;
+  text-align: center;
+}
+
+.inputHours::placeholder {
+  color: rgba(255, 255, 255, 0.2);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

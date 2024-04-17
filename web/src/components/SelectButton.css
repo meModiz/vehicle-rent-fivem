@@ -1,0 +1,12 @@
+.select-button {
+    cursor: pointer;
+  }
+  
+  .path-select {
+    fill-opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .path-select:hover {
+    fill-opacity: 1;
+  }
